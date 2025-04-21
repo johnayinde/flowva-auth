@@ -1,0 +1,15 @@
+.logo {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo svg {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+}

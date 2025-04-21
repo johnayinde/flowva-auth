@@ -1,0 +1,30 @@
+.form-message {
+  padding: 12px;
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  font-size: 14px;
+  opacity: 0;
+  transition: var(--transition);
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+.form-message.visible {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+}
+
+.error-message {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: var(--error);
+  border-left: 4px solid var(--error);
+}
+
+.success-message {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: var(--success);
+  border-left: 4px solid var(--success);
+}

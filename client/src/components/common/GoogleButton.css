@@ -1,0 +1,33 @@
+.btn-google {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background-color: white;
+  color: #3c4043;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn-google:hover {
+  box-shadow: 0 1px 4px rgba(60, 64, 67, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn-google:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.btn-google img {
+  height: 18px;
+  width: 18px;
+  object-fit: contain;
+}

@@ -36,3 +36,19 @@
     border-radius: var(--radius-md);
   }
 }
+
+@media (max-width: 400px) {
+  .auth-container {
+    width: 380px;
+    padding: 24px 16px;
+    border-radius: var(--radius-md);
+  }
+}
+
+@media (max-width: 300px) {
+  .auth-container {
+    width: 280px;
+    padding: 24px 16px;
+    border-radius: var(--radius-md);
+  }
+}

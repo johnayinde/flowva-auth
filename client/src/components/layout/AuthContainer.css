@@ -2,9 +2,9 @@
   background-color: white;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
-  width: 100%;
   max-width: 420px;
   padding: 40px;
+  margin: 40px auto;
   position: relative;
   overflow: hidden;
   transition: var(--transition);
@@ -19,8 +19,20 @@
   background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
 }
 
+/* Tablet and below */
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 30px 24px;
+    width: 420px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 480px) {
   .auth-container {
-    padding: 30px 20px;
+    width: 420px;
+
+    padding: 24px 16px;
+    border-radius: var(--radius-md);
   }
 }
